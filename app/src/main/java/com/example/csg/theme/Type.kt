@@ -1,4 +1,4 @@
-package com.example.csg.ui.theme
+package com.example.csg.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle

@@ -1,4 +1,4 @@
-package com.example.csg.ui.theme
+package com.example.csg.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes
