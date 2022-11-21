@@ -1,4 +1,4 @@
-package com.example.csg.ui.theme
+package com.example.csg.theme
 
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.darkColors
