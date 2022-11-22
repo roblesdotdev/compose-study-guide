@@ -6,6 +6,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import com.example.csg.screens.home.HomeScreen
+import com.example.csg.screens.login.LoginScreen
 import com.example.csg.screens.splash.SplashScreen
 
 @Composable
@@ -22,12 +23,15 @@ fun CSGNavHost(
            SplashScreen(
                onLoad = {
                    navController.popBackStack()
-                   navController.navigate(Home.route)
+                   navController.navigate(Login.route)
                }
            )
        }
        composable(route = Home.route) {
            HomeScreen()
+       }
+       composable(route = Login.route) {
+           LoginScreen()
        }
    }
 }

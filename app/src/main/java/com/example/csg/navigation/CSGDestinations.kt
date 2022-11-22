@@ -19,3 +19,9 @@ object Home: CSGDestination {
     override val route: String
         get() = "home_screen"
 }
+
+object Login: CSGDestination {
+    override val route: String
+        get() = "login_screen"
+
+}
